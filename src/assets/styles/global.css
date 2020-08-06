@@ -26,6 +26,11 @@
     box-sizing: border-box;
     transition: .2s ease-in-out all;
 }
+*::before,
+*::after {
+    box-sizing: border-box;
+    transition: .2s ease-in-out all;
+}
 
 html,
 body,
@@ -46,6 +51,7 @@ input,
 button,
 textarea {
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
 }
 
 .container {
